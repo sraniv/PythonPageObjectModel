@@ -13,8 +13,9 @@ from page_objects.PageFactory import PageFactory
 from utils.Option_Parser import Option_Parser
 import conf.example_table_conf as conf
 import conf.testrail_caseid_conf as testrail_file
+import pytest
 
-
+@pytest.mark.GUI
 def test_example_table(test_obj):
     "Run the test"
     try:

@@ -11,6 +11,7 @@ from page_objects.PageFactory import PageFactory
 from utils.Option_Parser import Option_Parser
 import conf.example_form_conf as conf
 import conf.testrail_caseid_conf as testrail_file
+import pytest
 
 def test_example_form(test_obj):
     "Run the test"
